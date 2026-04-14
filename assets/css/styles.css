@@ -2499,7 +2499,7 @@ h6 {
   align-items: center;
   justify-content: space-between;
   background: var(--firdip-base, #C8102E);
-  padding: 35px 56px;
+  padding: 18px 44px;
   position: relative;
 }
 @media (max-width: 575px) {
@@ -2548,7 +2548,7 @@ h6 {
 }
 .main-footer__middle {
   margin-top: 60px;
-  margin-bottom: 110px;
+  margin-bottom: 50px;
 }
 @media (max-width: 991px) {
   .main-footer__middle {
@@ -10345,7 +10345,7 @@ body.megamenu-popup-active .mobile-nav__content {
   position: relative;
   display: block;
   border: none;
-  height: 355px;
+  height: 800px;
   width: 100%;
   mix-blend-mode: luminosity;
 }
@@ -11554,6 +11554,7 @@ body.megamenu-popup-active .mobile-nav__content {
   text-transform: uppercase;
 }
 .feature-one__item__text {
+  min-height: 100px;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
