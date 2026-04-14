@@ -10341,7 +10341,7 @@ body.megamenu-popup-active .mobile-nav__content {
   position: relative;
   display: block;
   border: none;
-  height: 355px;
+  height: 800px;
   width: 100%;
   mix-blend-mode: luminosity;
 }

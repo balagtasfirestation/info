@@ -9,7 +9,7 @@ herodata.forEach(item => {
                     <div class="row">
                         <div class="col-md-12">
                             <div class="main-slider-one__content">
-                                <h2 class="main-slider-one__title">${item.title}</h2>
+                                <h2 class="main-slider-one__title fire-text">${item.title}</h2>
                                 <p class="main-slider-one__text">${item.description}</p>
                                 <div class="main-slider-one__btn"> <a href="services.html" class="firdip-btn main-slider-one__btn__link">Discover More</a></div>
                             </div>
