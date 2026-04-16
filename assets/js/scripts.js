@@ -11,9 +11,13 @@ herodata.forEach(item => {
                             <div class="main-slider-one__content">
                                 <br/>
                                 <br/>
+                                <br/>
+                                <br/>
                                 <h2 class="main-slider-one__title fire-text">${item.title}</h2>
                                 <p class="main-slider-one__text">${item.description}</p>
                                 <div class="main-slider-one__btn"> <a href="${item.video}" target="_blank" class="firdip-btn main-slider-one__btn__link">Discover More</a></div>
+                                <br/>
+                                <br/>
                                 <br/>
                                 <br/>
                             </div>
