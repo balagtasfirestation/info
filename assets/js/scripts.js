@@ -5,7 +5,7 @@ herodata.forEach(item => {
         <div class="item">
             <div class="main-slider-one__item">
                 <div class="main-slider-one__bg" style="background-image: url(assets/images/background/${item.img});"></div>
-                <div class="container my-3">
+                <div class="container my-5">
                     <div class="row">
                         <div class="col-md-12">
                             <div class="main-slider-one__content">
