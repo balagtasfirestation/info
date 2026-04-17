@@ -271,6 +271,9 @@
                                 </ul>
                             </li> -->
                             <li>
+                                <a href="" onclick="event.preventDefault(); document.getElementById('g_map').scrollIntoView();">Map</a>
+                            </li>
+                            <li>
                                 <a href="" onclick="event.preventDefault(); document.getElementById('contact_us').scrollIntoView();">Contact</a>
                             </li>
                         </ul>
@@ -368,9 +371,9 @@
 
                 <h2 class="fire-text" style="opacity: 1; text-align: center; font-style: normal; font-weight: 800; font-size: 90px; line-height: 111%;">News</h2>
                 
-             <a href="https://www.youtube.com/watch?v=p_rXyD5Z5Ck" target="_blank" class="firdip-btn">
-  <span>Watch Message from BFP Chief</span>
-</a>
+                <video controls autoplay muted style="width:100%; border-radius:10px;">
+                    <source src="assets/videos/Latest-News.mp4" type="video/mp4">
+                </video>
 
                 <br />
                 <br />
@@ -754,7 +757,7 @@
         <footer class="main-footer">
             <div class="main-footer__bg" style="background-image: url(assets/images/shapes/footer-bg.png);"></div>
             
-            <div class="google-map google-map__contact">
+            <div id="g_map" class="google-map google-map__contact">
                 <iframe title="template google map" src="https://maps.google.com/maps?width=600&height=400&hl=en&q=balagtas%20fire&t=&z=14&ie=UTF8&iwloc=B&output=embed" class="map__contact" allowfullscreen=""></iframe>
             </div>
             
@@ -827,11 +830,11 @@
                             <div class="footer-widget footer-widget--link">
                                 <h2 class="footer-widget__title">Links</h2>
                                 <ul class="list-unstyled footer-widget__links">
-                                    <li class="footer-widget__links__item"><a href="pages/about.html">About Us</a></li>
-                                    <li class="footer-widget__links__item"><a href="pages/team.html">Meet Our Team</a></li>
-                                    <li class="footer-widget__links__item"><a href="blog-list.html">Latest News</a></li>
-                                    <li class="footer-widget__links__item"><a href="project.html">Our Project</a></li>
-                                    <li class="footer-widget__links__item"><a href="contact.html">Contact</a></li>
+                                    <li class="footer-widget__links__item"><a href="index.html">Home</a></li>
+                                    <li class="footer-widget__links__item"><a href="" onclick="event.preventDefault(); document.getElementById('news').scrollIntoView();">News</a></li>
+                                    <li class="footer-widget__links__item"><a href="" onclick="event.preventDefault(); document.getElementById('services').scrollIntoView();">Services</a></li>
+                                    <li class="footer-widget__links__item"><a href="" onclick="event.preventDefault(); document.getElementById('g_map').scrollIntoView();">Map</a></li>
+                                    <li class="footer-widget__links__item"><a href="" onclick="event.preventDefault(); document.getElementById('contact_us').scrollIntoView();">Contact</a></li>
                                 </ul>
                             </div>
                         </div>
