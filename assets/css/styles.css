@@ -13566,6 +13566,13 @@ body.boxed-wrapper .funfact-one {
   justify-content: center;
 }
 
+@media (min-width: 1500px) {
+  .our-team img {
+    max-width: 1200px;
+    height: auto;
+  }
+}
+
 .main-slider-one #mainSlider_print, .main-slider-one .owl-stage-outer, .main-slider-one .owl-stage, .main-slider-one .owl-item, .main-slider-one .item {
   height: calc(100vh - 69px);;
 }
